@@ -10,6 +10,7 @@ Source Attribution: Displays answers with references to source documents.
 Extensible LLM: Supports GPT-2 by default, with easy integration for other models (e.g., OpenAI via .env).
 
 ## Directory Structure
+"""
 rag_chatbot/
 ├── agents/
 │   ├── ingestion_agent.py      # Handles document parsing and chunking
@@ -29,7 +30,7 @@ rag_chatbot/
 ├── requirements.txt           # Python dependencies
 ├── __init__.py                # Marks project as a Python package
 └── README.md                  # This file
-
+"""
 ## Requirements
 Python 3.8+
 Dependencies (listed in requirements.txt):
